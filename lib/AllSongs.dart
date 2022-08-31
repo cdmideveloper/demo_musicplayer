@@ -16,7 +16,7 @@ class _AllSongsState extends State<AllSongs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("All Songs"),),
+      appBar: AppBar(title: Text("All Songlist"),),
       body: ListView.builder(itemBuilder: (context, index) {
         return ListTile(
           onTap: () async {
